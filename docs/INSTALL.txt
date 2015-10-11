@@ -1,0 +1,17 @@
+acaeslanoticia.theme Installation
+---------------------------------
+
+To install acaeslanoticia.theme using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``acaeslanoticia.theme`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        acaeslanoticia.theme
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
